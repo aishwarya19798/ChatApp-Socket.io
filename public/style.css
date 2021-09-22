@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-window{
+    min-height:80vh;   
+    width:auto;
+    padding: 20px;
+}
+
+.container{
+    min-width:80vh;
+    height: auto;
+    background-color: aliceblue;
+    border: 1px solid rgb(210, 213, 216);
+}
+
+.fields{
+     display: flex;
+     flex-direction: column;
+     width:100%;
+}
+
+.fields input{
+    outline: none;
+    border:none;
+    border-bottom: 1px solid rgb(210, 213, 216);
+    background-color: transparent;
+    padding:10px 20px;
+}
+
+.fields button{
+    padding: 10px 20px;
+    border: 1px solid rgb(210, 213, 216);
+    background-color:rgb(63, 63, 124);
+    color:white;
+    outline: none;
+}
+
+.output p{
+    color:rgb(63, 63, 124);
+    font-family: sans-serif;
+    border-bottom: 1px solid rgb(210, 213, 216);
+    padding: 10px;
+}
+
+.typing{
+    padding:10px;
+}
